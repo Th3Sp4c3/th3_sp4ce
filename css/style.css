@@ -1,0 +1,12 @@
+.main-banner{
+    background: radial-gradient(circle, rgba(158,154,228,1) 0%, rgba(147,147,180,1) 42%, rgba(82,154,168,1) 100%)
+}
+
+@media screen and (min-width: 1024px){
+    .banner{
+        max-width: 1360px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+}
